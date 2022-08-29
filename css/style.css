@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #32C36C;
+    --primary: #dcd6f7;
     --light: #F6F7F8;
     --dark: #1A2A36;
 }
@@ -48,6 +48,15 @@
 }
 
 .btn.btn-primary,
+.btn.btn-outline-primary:hover {
+    color: #FFFFFF;
+}
+
+.btn.btn-custom-primary {
+    background-color: #747dab;
+}
+
+.btn.btn-custom-primary,
 .btn.btn-outline-primary:hover {
     color: #FFFFFF;
 }
