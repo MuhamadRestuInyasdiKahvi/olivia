@@ -33,12 +33,20 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: poppins-regular;
+            src: url(fonts/poppins/Poppins-Regular.otf);
+        }
+    </style>
+
 </head>
 
 <body>
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-0" , style="background-color: #240046;">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-0" , style="background-color: #3c096c;">
         <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
             <img class="m-0" src="img/eventmu.png" alt="" width="200" height="180">
         </a>
@@ -49,14 +57,15 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Beranda</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kategori</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">Sejarah</a>
-                        <a href="quote.html" class="dropdown-item">Tugas & Fungsi</a>
-
+                        <a href="feature.html" class="dropdown-item">Konser</a>
+                        <a href="quote.html" class="dropdown-item">Art</a>
+                        <a href="quote.html" class="dropdown-item">Wahana</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Event</a>
+                <a href="contact.html" class="nav-item nav-link">Tentang</a>
+                <a href="contact.html" class="nav-item nav-link">Kontak</a>
             </div>
         </div>
     </nav>
@@ -130,7 +139,7 @@
     <div class="container-xxl ">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="mb-4">Visit Our Latest Solar And Renewable Energy Projects</h1>
+                <h1 class="mb-4" style="font-family: poppins-regular;">Event Kekinian <br>Khusus Untuk Kamu</h1>
             </div>
             <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-12 text-center">
@@ -145,13 +154,19 @@
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
                 <div class="col-lg-4 col-md-6 portfolio-item first" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <img class="img-fluid" src="img/foto2.png" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                                    class="bi bi-bank" viewBox="0 0 16 16">
+                                    <path
+                                        d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z" />
+                                </svg>
                             </div>
-                            <h4 class="mb-3">Solar Panels</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <h4 class="mb-3">Museum ImersifA</h4>
+                            <p class="small">Museum Nasional Indonesia kini memiliki ruang imajinasi ImersifA untuk
+                                memperkaya
+                                pengalaman berkunjung ke museum ...</p>
                             <a class="small fw-medium" style="color: #240046;" href="">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -159,13 +174,20 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        <img class="img-fluid" src="img/foto3.png" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                                    class="bi bi-music-note" viewBox="0 0 16 16">
+                                    <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z" />
+                                    <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                                    <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z" />
+                                </svg>
                             </div>
-                            <h4 class="mb-3">Solar Panels</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <h4 class="mb-3">Festival Lagu Laguan</h4>
+                            <p class="small">A new experience of the Music Festival coming next. Are you ready?
+                                Festival LaguLaguan will be held on October 01 & 02 2022 ‼️
+                                Mark your calendar and ...</p>
                             <a class="small fw-medium" href="" style="color: #240046;">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -173,13 +195,22 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item third" data-wow-delay="0.5s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <img class="img-fluid" src="img/foto1.png" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                                    class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                                    <path
+                                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                                </svg>
                             </div>
-                            <h4 class="mb-3">Solar Panels</h4>
-                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                            <h4 class="mb-3">Train To Apocalypse</h4>
+                            <p class="small">Train to Apocalypse wahana kereta zombie pertama yang ada di Indonesia yang
+                                terinspirasi
+                                dari Film Korea Selatan yaitu Train to Busan..
+                            </p>
                             <a class="small fw-medium" href="" style="color: #240046;">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -194,7 +225,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="mb-4">What Are They Saying</h1>
+                <h1 class="mb-4" style="font-family: poppins-regular;">Apa Kata Mereka?</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
